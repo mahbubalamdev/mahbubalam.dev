@@ -59,8 +59,8 @@ module.exports = {
     disqus: 'mahbubalamdev', // if you want to incorporate Disqus for comments replace this value else just get rid of it
     about: {
       fullName: 'Mahbub Alam',
-      bio: 'I am a passionate Cloud Engineer, 3X AWS Cetrified',
-      image: 'https://www.mahbubalam.dev/images/mahbubalam.jpeg',
+      bio: 'I am a passionate Cloud Engineer, I enjoy building solution that is scalable, observable and fault tolerant.',
+      image: 'https://www.mahbubalam.dev/images/mahbubalam.png',
     },
     footer: {
       contact: [
@@ -75,37 +75,14 @@ module.exports = {
       ],
       copyright: [
         {
-          text: 'Privacy Policy',
-          link: 'https://policies.google.com/privacy?hl=en-US',
+          text: 'Theme: vuepress-theme-modern-blog',
+          link: 'https://github.com/z3by/vuepress-theme-modern-blog',
         },
         {
-          text: 'MIT Licensed | Copyright © 2022-present Mahbub Alam',
+          text: 'Copyright © 2022 Mahbub Alam',
           link: '',
         },
       ],
     },
-  },
-  plugins: [
-    'crisp',
-    'seo',
-    'smooth-scroll',
-    'reading-progress',
-    '@vuepress/medium-zoom',
-    '@vuepress/nprogress',
-    'social-share',
-    '@vuepress/google-analytics',
-    [
-      '@vuepress/pwa',
-      {
-        serviceWorker: true,
-        updatePopup: true,
-      },
-    ],
-    [
-      'sitemap',
-      {
-        hostname: 'https://vp-modern.z3by.com',
-      },
-    ],
-  ],
+  }
 }
